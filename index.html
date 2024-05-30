@@ -3,34 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>MeteoApp</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
 
-    <main>
-      <div>
-        <h1>London</h1>
-        <p>
-          Tuesday 11:58, broken clouds
-          <br />
-          Humidity: 59%, Wind: 2.57km/h
-        </p>
-      </div>
-      <div>⛅ 12°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/AnnaRajnak" target="_blank"> ARH </a>,
-      open-sourced on
-      <a href="https://github.com/AnnaRajnak/meteo" target="_blank"> GitHub</a>
-      and hosted on
-      <a href="https://meteo-arh.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+      <main>
+        <div>
+          <h1>London</h1>
+          <p>
+            Tuesday 11:58, broken clouds
+            <br />
+            Humidity: 59%, Wind: 2.57km/h
+          </p>
+        </div>
+        <div>⛅ 12°C</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/AnnaRajnak" target="_blank"> ARH </a>,
+        open-sourced on
+        <a href="https://github.com/AnnaRajnak/meteo" target="_blank">
+          GitHub</a
+        >
+        and hosted on
+        <a href="https://meteo-arh.netlify.app/" target="_blank">Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>

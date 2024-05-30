@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">London</h1>
+            <h1 class="weather-app-city" id="city">London</h1>
             <p class="weather-app-details">
               Tuesday 11:58, broken clouds
               <br />
@@ -44,7 +45,7 @@
       </main>
       <footer>
         This project was coded by
-        <a href="https://github.com/AnnaRajnak" target="_blank"> ARH </a>,
+        <a href="https://github.com/AnnaRajnak" target="_blank"> AR </a>,
         open-sourced on
         <a href="https://github.com/AnnaRajnak/meteo" target="_blank">
           GitHub</a
@@ -53,5 +54,6 @@
         <a href="https://meteo-arh.netlify.app/" target="_blank">Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

@@ -32,6 +32,14 @@ header {
   font-size: 14px;
   font-weight: bold;
   margin-left: 6px;
+  box-shadow: 5px 5px 5px rgba(96, 96, 96, 0.5);
+  transition: all 200ms ease-in-out;
+}
+.search-form-button:hover {
+  background-color: white;
+  color: #8a929b;
+  border: 1px solid #8a929b;
+  cursor: pointer;
 }
 .weather-app-data {
   display: flex;

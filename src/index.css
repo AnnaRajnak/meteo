@@ -71,7 +71,8 @@ header {
   margin-top: 16px;
   font-size: 28px;
 }
-strong {
+#humidity,
+#wind-speed {
   color: #729fcf;
 }
 main {

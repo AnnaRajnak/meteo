@@ -94,6 +94,7 @@ a {
 .weather-forecast {
   margin-top: 20px;
   display: flex;
+  justify-content: space-around;
 }
 .col-2 {
   text-align: center;
@@ -104,6 +105,7 @@ a {
 }
 .weather-forecast-temperature {
   font-size: 13px;
+  color: #729fcf;
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;

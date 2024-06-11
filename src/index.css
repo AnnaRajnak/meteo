@@ -110,3 +110,8 @@ a {
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
+.forecast-icon img {
+  width: 75px;
+  display: block;
+  margin: 0 auto;
+}
